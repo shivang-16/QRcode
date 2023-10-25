@@ -1,0 +1,36 @@
+/* App.scss */
+
+.scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Adjust the height as needed */
+  }
+  
+  .qr-scanner {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border: 2px solid #007bff; /* Add a border for a distinctive look */
+  }
+  
+  /* Style for the scanned data display */
+  .scanned-data {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* Style for buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for the whole page */
+  /* You can customize the layout, background, and fonts here */
+  
